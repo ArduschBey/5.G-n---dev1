@@ -72,15 +72,27 @@ Bu, özellikle aynı anda birden çok bağımsız değişken kullanıldığında
 
 Birden çok bağımsız değişkenle, pytest.mark.parametrizedizine dayalı basit bir ilişkilendirme gerçekleştirir, bu nedenle while önce ve sonra değerleri namevarsayar , ve değerleri alır .ClaireJayexpectedMrsMr
 
+Bazı Dekoratörler
 
 pytest.approx(): İki veya ikiden fazla sayının sayı kümeleri yaklaşık olarak bazı farklılıklara eşitler.
+
 pytest.fail(): Yürütülmekte olan test açıkça başarısız olursa, mesaj gösterir.
+
 pytest.skip(): Gösterilen mesajla yürütme testini atlatır.
+
 pytest.exit(): Test sürecinden çıkartır.
-pytest.main(): İşlem içi test yürütmesi tamamlandığında çıkış kodunu döndürür.
+
+pytest.main(): İşlem içi test yürütmesi tamamlandığında çıkış kodunu döndürür
+
 pytest.raises(): Bir kod bloğu çağrısının beklenen istisnayı ortaya çıkardığını veya bir hata istisnası oluşturduğunu ileri sürer.
+
 pytest.mark.skip(): Bu dekoratör bir test fonksiyonunda belirlenen testi atlamak için kullanılır.
+
 pytest.mark.skipİf(): Bir test fonksiyonunda verilen koşul True ise testi atlamamızı sağlar.
+
 pytest.mark.timeout(): Bir testin belirli bir sürede tamamlanması gerektiğini belirlemek için kullanılır.
+
 pytest.mark.xfail(): Bir testin başarısız olmasını beklediğimizi belirtmek için kullanılır.
+
 pytest.mark.dependency(): Bu dekoratör testler arası bağımlılıkları belirlemek için kullanılır.
+
